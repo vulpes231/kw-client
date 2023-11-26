@@ -11,11 +11,14 @@ import CoinPage from "./components/CoinPage";
 import Send from "./components/Send";
 import CreateWallet from "./components/CreateWallet";
 import SecurityPrivacy from "./components/SecurityPrivacy";
+import LandingPage from "./components/LandingPage.jsx";
+import MainHeader from "./components/MainHeader.jsx";
 
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/" element={[<MainHeader />, <LandingPage />]} />
         <Route path="/signup" element={[<Header />, <SignUp />]} />
         <Route path="/signin" element={[<Header />, <SignIn />]} />
         <Route path="/dashboard" element={[<Header dash />, <Dashboard />]}>
