@@ -31,11 +31,15 @@ const Defi = () => {
           {defis}
         </div>
       </section>
-      <article className={` ${styles.bgColor.altLight} flex flex-col gap-4`}>
-        <h3 className={`capitalize font-semibold mt-5 text-xl`}>
+      <article
+        className={` ${styles.bgColor.altLight} flex flex-col gap-4 py-10 `}
+      >
+        <h3 className={`capitalize font-semibold mt-10 text-xl`}>
           Coin protected in all case
         </h3>
-        <div className={`grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-6 `}>
+        <div
+          className={`grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-6 lg:max-w-[1000px] lg:mx-auto `}
+        >
           {secs}
         </div>
       </article>

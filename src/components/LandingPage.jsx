@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import GetStarted from "./GetStarted";
 import Defi from "./Defi";
 import Guidelines from "./Guidelines";
+import About from "./About";
 
 const LandingPage = () => {
   return (
@@ -17,6 +18,9 @@ const LandingPage = () => {
       </div>
       <div>
         <Guidelines />
+      </div>
+      <div>
+        <About />
       </div>
       <Footer />
     </section>

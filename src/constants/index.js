@@ -128,3 +128,11 @@ export const guidelines = [
     img: manage,
   },
 ];
+
+export const footerLinks = [
+  { id: "defi", title: "DEFI" },
+  { id: "hiw", title: "How it works" },
+  { id: "about", title: "About" },
+  { id: "signin", title: "Sign In" },
+  { id: "signup", title: "Sign Up" },
+];

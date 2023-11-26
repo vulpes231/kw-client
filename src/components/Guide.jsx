@@ -10,7 +10,7 @@ const Guide = ({ img, title, content }) => {
       <h3 className={`${styles.textColor.primary} font-bold capitalize`}>
         {title}
       </h3>
-      <p className="font-extralight text-xs">{content}</p>
+      <p className="font-extralight text-xs md:text-lg">{content}</p>
     </div>
   );
 };
