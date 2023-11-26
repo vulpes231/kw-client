@@ -24,12 +24,14 @@ const MainHeader = () => {
     );
   });
   return (
-    <header className="w-full bg-[#EDF2F7] px-6 py-4 h-[70px] lg:h-[80px] flex items-center justify-center">
+    <header className="w-full bg-[#EDF2F7] px-6 py-4 h-[70px] lg:h-[80px] flex items-center justify-center fixed top-0">
       <nav className="flex justify-between items-center w-full">
         {/* logo */}
         <img src={klogo} alt="krypt-wallet-logo" className="w-[70px]" />
         {/* links */}
-        <ul className={`hidden md:flex gap-6 text-lg ${styles.hover.primary}`}>
+        <ul
+          className={`hidden md:flex gap-6 text-lg ${styles.hover.primary} font-light`}
+        >
           {links}
         </ul>
         {/* ctas */}
@@ -53,7 +55,7 @@ const MainHeader = () => {
           className={
             !toggle
               ? "hidden"
-              : "flex flex-col gap-6 font-semibold absolute left-0 top-[70px] min-h-screen w-full items-center justify-center bg-white bg-opacity-50"
+              : "flex flex-col gap-6 font-semibold absolute left-0 top-[70px] min-h-screen w-full items-center justify-center bg-white bg-opacity-90"
           }
         >
           {links}

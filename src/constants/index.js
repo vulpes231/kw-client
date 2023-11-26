@@ -12,6 +12,7 @@ export const styles = {
   bgColor: {
     primary: " bg-[#58CAC3]",
     light: " bg-[#EDF2F7]",
+    altLight: " bg-[#F3F3F3]",
   },
   textColor: {
     primary: " text-[#58CAC3]",
