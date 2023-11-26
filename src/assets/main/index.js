@@ -4,9 +4,24 @@ import hero2 from "./hero2.webp";
 import pro1 from "./pro1.webp";
 import pro2 from "./pro2.webp";
 import pro3 from "./pro3.webp";
-import hw1 from "./hw1.webp";
-import hw2 from "./hw2.webp";
-import hw3 from "./hw3.webp";
-import hw5 from "./hw5.webp";
+import secure from "./secure.png";
+import imp from "./import.png";
+import trf from "./trf.png";
+import level from "./level.png";
+import price from "./price.png";
+import manage from "./manage.png";
 
-export { klogo, hero1, hero2, pro1, pro2, pro3, hw1, hw2, hw3, hw5 };
+export {
+  klogo,
+  hero1,
+  hero2,
+  pro1,
+  pro2,
+  pro3,
+  secure,
+  imp,
+  trf,
+  level,
+  price,
+  manage,
+};
