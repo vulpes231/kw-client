@@ -15,7 +15,8 @@ import { reset, verifyUser } from "../features/user/userSlice";
 import axios from "axios";
 
 export default function VerifyEmailForm({ setStep, setStatus }) {
-  const email = JSON.parse(localStorage.getItem("BSuser"));
+  const storedUserData = JSON.parse(localStorage.getItem("BSuser"));
+  const email = storedUserData ? storedUserData.email : null;
   const [pin, setPin] = useState("");
   const [code, setCode] = useState("");
   const dispatch = useDispatch();
