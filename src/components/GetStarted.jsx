@@ -1,7 +1,7 @@
 import React from "react";
 import { styles } from "../constants";
 import { Link } from "react-router-dom";
-import Marquee from "./Marquee";
+import MarqueeComp from "./MarqueeComp";
 
 const GetStarted = () => {
   return (
@@ -17,7 +17,7 @@ const GetStarted = () => {
           Get Started
         </Link>
       </div>
-      <Marquee />
+      <MarqueeComp />
     </section>
   );
 };

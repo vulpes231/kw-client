@@ -13,9 +13,9 @@ import {
 import { HiArrowDown, HiPlusCircle } from "react-icons/hi";
 
 export const navLinks = [
-  { id: "defi", title: "DEFI" },
-  { id: "hiw", title: "How it works" },
-  { id: "about", title: "About" },
+  { id: "defi", title: "DEFI", section: "defi" },
+  { id: "hiw", title: "How it works", section: "hiw" },
+  { id: "about", title: "About", section: "about" },
 ];
 
 export const styles = {

@@ -3,6 +3,8 @@ import { Flex, useColorModeValue, Image, Text } from "@chakra-ui/react";
 function ActivatedCoins({ code, name, link, setArr, coin, Arr }) {
   const [selected, setSelected] = useState(code === "BTC");
 
+  console.log(link);
+
   const handleArr = () => {
     const token = Arr.find((arr) => arr.code === coin.code);
     if (token) {
@@ -34,7 +36,7 @@ function ActivatedCoins({ code, name, link, setArr, coin, Arr }) {
         handleArr();
       }}
     >
-      <Image w={4} src={link} alt={code} />
+      <Image w={4} src={`/${link}`} alt={code} />
       <Text fontSize={16}>{name}</Text>
     </Flex>
   );

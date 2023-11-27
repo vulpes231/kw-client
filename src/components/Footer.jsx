@@ -10,7 +10,7 @@ const Footer = () => {
   });
   return (
     <footer
-      className={`p-6 ${styles.bgColor.altLight} border border-t-2 flex flex-col gap-6 font-extralight  text-xs md:text-lg`}
+      className={`p-6 ${styles.bgColor.light} border border-t-2 flex flex-col gap-6 font-extralight  text-xs md:text-lg`}
     >
       <div className="lg:max-w-[1000px] lg:mx-auto">
         <img src={klogo} alt="" className="w-[80px]" />

@@ -23,7 +23,10 @@ const Defi = () => {
 
   return (
     <>
-      <section className="p-6 mt-28 lg:max-w-[1000px] lg:mx-auto flex flex-col gap-4">
+      <section
+        id="defi"
+        className="p-6 mt-28 lg:max-w-[1000px] lg:mx-auto flex flex-col gap-4"
+      >
         <h3 className="uppercase text-left md:text-center text-xl md:text-2xl font-semibold">
           defi
         </h3>

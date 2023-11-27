@@ -4,6 +4,7 @@ import { styles } from "../constants";
 const About = () => {
   return (
     <section
+      id="about"
       className={`p-6 mt-28  flex flex-col gap-4 text-left ${styles.bgColor.altLight}`}
     >
       <div className="lg:max-w-[1000px] lg:mx-auto">

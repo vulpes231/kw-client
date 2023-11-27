@@ -4,6 +4,7 @@ import { navLinks, styles } from "../constants";
 import CtaButton from "./CtaButton";
 
 import { HiMenu } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 const MainHeader = () => {
   const [toggle, setToggle] = useState(false);
@@ -18,9 +19,17 @@ const MainHeader = () => {
 
   const links = navLinks.map((link, index) => {
     return (
-      <li key={link.id || index} onClick={closeMenu}>
+      <Link
+        key={link.id || index}
+        onClick={closeMenu}
+        to={link.section}
+        spy={true}
+        smooth={true}
+        offset={-70} // Adjust this offset based on your header height
+        duration={500}
+      >
         {link.title}
-      </li>
+      </Link>
     );
   });
   return (
